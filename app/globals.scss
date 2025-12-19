@@ -24,6 +24,16 @@
     --input: 20 5.9% 90%;
     --ring: 20 14.3% 4.1%;
     --radius: 0.5rem;
+    --blue-50: 214 100% 97%;
+    --blue-100: 214 95% 93%;
+    --blue-200: 213 97% 87%;
+    --blue-300: 212 96% 78%;
+    --blue-400: 213 94% 68%;
+    --blue-500: 217 91% 60%;
+    --blue-600: 221 83% 53%;
+    --blue-700: 224 76% 48%;
+    --blue-800: 226 71% 40%;
+    --blue-900: 224 64% 33%;
 
     --chart-1: 359 2% 40%;
     --chart-2: 240 1% 74%;
@@ -40,6 +50,6 @@
     @apply border-border;
   }
   body {
-    @apply overflow-x-hidden bg-muted/70 text-foreground;
+    @apply overflow-x-hidden bg-background text-foreground;
   }
 }
