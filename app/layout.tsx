@@ -1,3 +1,4 @@
+import { ReduxProvider } from "@/store/ReduxProvider";
 import { Inter } from "next/font/google";
 import "./globals.scss";
 
@@ -10,7 +11,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <ReduxProvider>{children}</ReduxProvider>
+      </body>
     </html>
   );
 }
